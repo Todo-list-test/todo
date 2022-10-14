@@ -72,8 +72,8 @@ const onDbclickTodo = (e, todoId) => {
 };
 
 const paintTodos = () => {
-  todoListElem.innerHTML = null; //todoListElem 요소 안의 HTML 초기화
-  const allTodos = getAllTodos(); // todos 배열 가져오기
+  todoListElem.innerHTML = null;
+  const allTodos = getAllTodos();
 
   allTodos.forEach((todo) => {
     const todoItemElem = document.createElement("li");
