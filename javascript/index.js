@@ -90,6 +90,7 @@ const paintTodos = () => {
     todoElem.addEventListener("dblclick", (event) =>
       onDbclickTodo(event, todo.id)
     );
+
     todoElem.innerText = todo.content;
 
     const delBtnElem = document.createElement("button");
