@@ -19,7 +19,6 @@ const appendTodos = (text) => {
     isCompleted: false,
     content: text,
   });
-  // const newTodos = [...getAllTodos(), {id: newId, isCompleted: false, content: text }]
   setTodos(newTodos);
   paintTodos();
 };
